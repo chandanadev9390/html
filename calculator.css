@@ -1,0 +1,98 @@
+/* h1{
+    position: relative;
+    left: 100px;
+}
+.base{
+    position: relative;
+    left: 100px;
+    border: 2px solid black;
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+}
+.calci{
+    border: 2px solid rgb(51, 36, 36);
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    
+
+}
+.screen{
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cf{
+    border: 2px solid black;
+    border-color: black;
+    background-color: blue;
+    padding: 20px;
+    width: 2px;
+    border-radius: 50%;
+    display: flex;
+    column-gap: 10px;
+} */
+.container{
+    border: 2px solid blue;
+    background-color: lightgray;
+    width: 35%;
+    height: 400px;
+    box-shadow: 1px 1px 4px 2px;
+    
+}
+.display{
+    width:100%;
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+}
+.parent{
+    position: relative;
+    top: 20px;
+}
+.buttons{
+   display: flex;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+.btn-num{
+    background-color: aqua;
+    font-size: 50px;
+    width: 200px;
+    display: flex;
+    gap: 10px 5px;
+    box-shadow: 2px 1px 2px 4px;
+}
+.btn-opr{
+    font-size: 50px;
+    background-color: blueviolet;
+    display: flex;
+    column-gap: 10px 5px;
+    box-shadow: 2px 1px 4px 6px;
+}
+.btn-clr{
+    font-size: 50px;
+    background-color: brown;
+    width: 110px;
+    display: flex;
+    column-gap: 10px 5px;
+    box-shadow: 2px 1px 4px 6px;
+}
+.btn-eql{
+    background-color: blue;
+    font-size: 50px;
+    width: 110px;
+    display: flex;
+    column-gap: 10px 5px;
+    box-shadow: 2px 1px 4px 6px;
+}
